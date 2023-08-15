@@ -16,7 +16,7 @@ public class TestRegister extends TestConfigurations {
                 .clickOnSignUpLoginButton();
         new SignUpLoginPage(driver)
                 .assertNewUserSignUpText()
-                .Signup("Ahmed","ahmed111.m@gmail.com");
+                .Signup("Ahmed","ahmed"+System.currentTimeMillis()+".m@gmail.com");
         new SignUpPage(driver).assertEnterAccountInformationTextVisibility()
                 .enterAccountInfo("124@ss12")
                 .setAddressInfo("ahmed","younes","darelhandsa","hadaykelahram","giza","egypt","cairo","1111","01004411707");
