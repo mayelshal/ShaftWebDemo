@@ -38,9 +38,9 @@ public class SignUpPage {
     }
 
     public SignUpPage assertEnterAccountInformationTextVisibility(){
-        String accountInformationText =driver.element().getText(AccountInformation);
+        //String accountInformationText =driver.element().getText(AccountInformation);
 
-        driver.assertThat().element(AccountInformation).text().equals(accountInformationText);
+        driver.assertThat().element(AccountInformation).text().equals("ENTER ACCOUNT INFORMATION");
         return this;
 
     }

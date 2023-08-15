@@ -24,7 +24,7 @@ public class HomePage {
         return this;
     }
     public HomePage assertOnHomePageTitle() {
-        String homepage=driver.getDriver().getTitle();
+        //String homepage=driver.getDriver().getTitle();
         //sa.assertEquals(homepage,"Automation Exercise");
         driver.assertThat().browser().title().equals("Automation Exercise");
 

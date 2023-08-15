@@ -22,9 +22,9 @@ public class SignUpLoginPage {
     }
 
     public SignUpLoginPage assertNewUserSignUpText(){
-        String newUserText = driver.element().getText(newUserSignUp);
+        //String newUserText = driver.element().getText(newUserSignUp);
 
-        driver.assertThat().element(newUserSignUp).text().equals(newUserText);
+        driver.assertThat().element(newUserSignUp).text().equals("New User Signup!");
 
         return this;
     }
