@@ -22,11 +22,11 @@ public class TestRegister extends TestConfigurations {
                 .setAddressInfo("ahmed","younes","darelhandsa","hadaykelahram","giza","egypt","cairo","1111","01004411707");
         new AccountCreatedPage(driver).assertAccountCreatedTextMsg()
                 .clickOnContinueButton();
-      /* // new MenuPage(driver)
+        /*new MenuPage(driver)
                 .assertLoggedInAsUserNameVisibility();
        new MenuPage(driver)
                 .deleteAccount();
-        new HomePage(driver).assertThatAccountDeleted();
-*/
+        new HomePage(driver).assertThatAccountDeleted();*/
+
     }
 }
