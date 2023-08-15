@@ -43,5 +43,5 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v3
         with:
-                          name: Windows_Edge_Local_Allure
-                          path: "extent-reports/ExtentReports_*.html"
+          name: Windows_Edge_Local_Allure
+          path: "extent-reports/ExtentReports_*.html"
