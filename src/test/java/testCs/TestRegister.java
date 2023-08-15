@@ -1,6 +1,8 @@
+package testCs;
+
 import Pages.*;
-import com.shaft.driver.SHAFT;
 import org.testng.annotations.Test;
+import testCs.TestConfigurations;
 
 public class TestRegister extends TestConfigurations {
 

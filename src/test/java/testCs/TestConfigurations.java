@@ -1,3 +1,5 @@
+package testCs;
+
 import com.shaft.driver.SHAFT;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
