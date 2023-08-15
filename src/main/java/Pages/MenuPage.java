@@ -29,7 +29,7 @@ public class MenuPage {
 
 
     public MenuPage assertLoggedInAsUserNameVisibility(){
-        By logginIn = By.xpath("(//ul[@class ='nav navbar-nav']//a)[10]");
+        By logginIn = By.xpath("//i[@class='fa fa-user']//parent::a");
         //sa.assertEquals(driver.findElement(logginIn).getText(), "Logged in as May");
         driver.assertThat().element(logginIn).text().equals("Logged in as Ahmed");
         return this;
